@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <!-- should always see these -->
+    
+    <item 
+        android:id="@+id/play"
+        android:icon="@drawable/ic_menu_play"
+        android:title="@string/scalePlay" 
+        android:contentDescription="@string/scalePlayDetail"
+        android:showAsAction="always"/>
+
+    <item 
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_menu_stop"
+        android:title="@string/scaleStop" 
+        android:contentDescription="@string/scaleStopDetail"
+        android:visible="true"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/edit"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/scaleEdit" 
+        android:contentDescription="@string/scaleEditDetail"
+        android:showAsAction="always">
+        
+		<!-- edit functions submenu -->        
+        
+        <menu>
+		    <item 
+		        android:id="@+id/addTone"
+		        android:icon="@drawable/ic_menu_add"
+		        android:title="@string/scaleAdd" 
+		        android:contentDescription="@string/scaleAddDetail"
+		        android:showAsAction="never"/>
+       </menu>
+        
+    </item>
+    
+    <item 
+        android:id="@+id/file"
+        android:icon="@drawable/ic_menu_open"
+        android:title="@string/scaleFile" 
+        android:contentDescription="@string/scaleFileDetail"
+        android:showAsAction="always">
+        
+		<!-- file functions submenu -->        
+        
+        <menu>
+		    <item 
+		        android:id="@+id/create"
+		        android:icon="@drawable/ic_menu_new"
+		        android:title="@string/scaleNew" 
+		        android:contentDescription="@string/scaleNewDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/open"
+		        android:icon="@drawable/ic_menu_open"
+		        android:title="@string/scaleOpen" 
+		        android:contentDescription="@string/scaleOpenDetail"
+		        android:showAsAction="never"/>
+		    <item
+		        android:id="@+id/saveAs"
+		        android:icon="@drawable/ic_menu_save_as"
+		        android:title="@string/scaleSaveAs"
+		        android:contentDescription="@string/scaleSaveAsDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/delete"
+		        android:icon="@drawable/ic_menu_delete"
+		        android:title="@string/scaleDelete" 
+		        android:contentDescription="@string/scaleDeleteDetail"
+		        android:showAsAction="never"/>
+        </menu>
+        
+    </item>
+    
+</menu>

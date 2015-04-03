@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:padding="8dp"
+    android:background="@color/dkgray">
+
+	<TextView 
+	    android:id="@+id/labelLeft"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:textSize="24sp"
+	    android:textColor="@color/white"/>
+    
+    <SeekBar
+        android:id="@+id/slider"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/labelLeft"
+        android:layout_toLeftOf="@+id/labelRight"/>
+
+	<TextView 
+	    android:id="@+id/labelRight"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:textSize="24sp"
+	    android:textColor="@color/white"/>
+	
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.wordsaretoys.quencher.scores.ComposerView
+        android:id="@+id/composerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+		android:layout_weight="1"/>
+    
+    <fragment
+        android:name="com.wordsaretoys.quencher.scores.TrackFragment"
+        android:id="@+id/trackFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

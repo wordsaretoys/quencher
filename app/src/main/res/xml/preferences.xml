@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory
+        android:title="@string/prefsTuningTitle"
+        android:key="pref_key_tuning">
+        
+        <EditTextPreference
+            android:key="pref_tuning_reference"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/prefsTuningReferenceDefault"
+            android:title="@string/prefsTuningReference"/>
+        
+        <EditTextPreference
+            android:key="pref_tuning_frequency"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/prefsTuningFrequencyDefault"
+            android:title="@string/prefsTuningFrequency"/>
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/prefsAudioTitle"
+        android:key="pref_key_audio">
+        
+        <EditTextPreference
+            android:key="pref_audio_latency"
+            android:inputType="number"
+            android:defaultValue="@string/prefsAudioLatencyDefault"
+            android:title="@string/prefsAudioLatency"/>
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@color/white"
+	    style="?android:attr/buttonBarStyle">
+	    
+	   	<ImageButton
+	        android:id="@+id/scale"
+	        android:src="@drawable/ic_button_scale"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackScaleDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	       
+	   	<ImageButton
+	        android:id="@+id/voice"
+	        android:src="@drawable/ic_button_voice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackVoiceDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	
+	   	<ImageButton
+	        android:id="@+id/timing"
+	        android:src="@drawable/ic_button_timing"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackBeatsDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	   	
+	   	<ImageButton
+	   	    android:id="@+id/audio"
+	   	    android:src="@drawable/ic_button_volume"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackAudioDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	
+	   	<ImageButton
+	   	    android:id="@+id/toggleLock"
+	   	    android:src="@drawable/ic_status_unlocked"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackToggleLockDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+
+	   	<ImageButton
+	   	    android:id="@+id/moveUp"
+	   	    android:src="@drawable/ic_button_up"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackMoveUpDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+
+	   	<ImageButton
+	   	    android:id="@+id/moveDown"
+	   	    android:src="@drawable/ic_button_down"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackMoveDownDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	   		   		   		   		
+	   	<ImageButton
+	   	    android:id="@+id/duplicate"
+	   	    android:src="@drawable/ic_button_duplicate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackDuplicateDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	   		   	
+	   	<ImageButton
+	   	    android:id="@+id/delete"
+	   	    android:src="@drawable/ic_button_remove"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/trackDeleteDetail"
+	        style="?android:attr/borderlessButtonStyle"/>
+	   						
+	</LinearLayout>
+    
+	<LinearLayout
+	    android:id="@+id/buttonBar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        android:background="@color/white"
+		style="?android:attr/buttonBarStyle" >
+
+	    <com.wordsaretoys.quencher.scores.NoteChooserView
+	        android:id="@+id/noteChooserView"
+			android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"/>
+	    
+	    <ImageButton
+	        android:id="@+id/noteBackspace"
+	        android:src="@drawable/ic_button_backspace"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:contentDescription="@string/noteBackspace"
+	        style="?android:attr/borderlessButtonStyle" />
+
+	    <ImageButton
+	        android:id="@+id/noteNext"
+	        android:src="@drawable/ic_button_next"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:contentDescription="@string/noteNext"
+	        style="?android:attr/borderlessButtonStyle" />
+    
+	</LinearLayout>
+
+</LinearLayout>

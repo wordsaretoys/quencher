@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/listview_selector">
+
+	<TextView
+	    android:id="@+id/toneLabel"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.1"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:gravity="center"
+	    android:ellipsize="end"
+	    android:singleLine="true"
+	    android:textSize="24sp" />
+	
+	<View
+	    android:background="@color/mdgray1"
+	    android:layout_width="1dp"
+	    android:layout_height="match_parent"/>
+
+	<TextView
+	    android:id="@+id/toneInterval"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.15"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:gravity="center"
+	    android:ellipsize="end"
+	    android:singleLine="true"
+	    android:textSize="24sp" />
+	
+	<View
+	    android:background="@color/mdgray1"
+	    android:layout_width="1dp"
+	    android:layout_height="match_parent"/>
+			
+	<TextView
+	    android:id="@+id/toneRatio"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.2"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:gravity="center"
+	    android:ellipsize="end"
+	    android:singleLine="true"
+	    android:textSize="24sp" />
+	
+	<View
+	    android:background="@color/mdgray1"
+	    android:layout_width="1dp"
+	    android:layout_height="match_parent"/>
+
+	<TextView
+	    android:id="@+id/toneFreq"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.25"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:gravity="center"
+	    android:ellipsize="end"
+	    android:singleLine="true"
+	    android:textSize="24sp" />
+			
+</LinearLayout>

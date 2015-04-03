@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<com.wordsaretoys.quencher.common.GuardedListView 
+	    android:id="@+id/scaleList"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="0.5"
+	    android:choiceMode="singleChoice"/>
+
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:background="@color/mdgray1"/>
+		
+    <fragment
+        android:name="com.wordsaretoys.quencher.scales.ToneFragment"
+        android:id="@+id/toneFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+</LinearLayout>

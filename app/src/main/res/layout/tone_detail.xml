@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+	<include layout="@layout/listitem_button_bar"/>
+    
+    <TextView
+        android:id="@+id/lbl0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBar"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:text="@string/toneLabel"/>
+    
+    <EditText
+        android:id="@+id/toneLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl0"
+        android:layout_toLeftOf="@+id/toneSpecialChars"
+        android:layout_alignBaseline="@id/lbl0"
+        android:layout_alignLeft="@+id/toneInterval"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:hint="@string/toneLabelDetail"
+        android:inputType="textNoSuggestions"/>
+    
+    <LinearLayout 
+        android:id="@+id/toneSpecialChars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/toneLabel"
+        android:baselineAlignedChildIndex="0"
+        android:orientation="horizontal"
+		style="?android:attr/buttonBarStyle">
+        
+	    <Button 
+	        android:id="@+id/toneSharp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:textSize="24sp"
+	        android:textColor="@color/mdgray1"
+	        android:text="@string/toneSharp"
+			style="?android:attr/borderlessButtonStyle"/>
+	
+	    <Button 
+	        android:id="@+id/toneFlat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:textSize="24sp"
+	        android:textColor="@color/mdgray1"
+	        android:text="@string/toneFlat"
+			style="?android:attr/borderlessButtonStyle"/>
+    
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl0"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:text="@string/toneInterval"/>
+    
+    <EditText
+        android:id="@+id/toneInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl1"
+        android:layout_alignBaseline="@id/lbl1"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:hint="@string/toneIntervalDetail"
+        android:inputType="numberDecimal"/>
+
+    <View
+        android:id="@+id/spacer"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/lbl1"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/mdgray1"/>
+    
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spacer"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:text="@string/toneOffset"/>
+    
+    <EditText
+        android:id="@+id/toneOffset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl2"
+        android:layout_alignBaseline="@id/lbl2"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        android:hint="@string/toneOffsetDetail"
+        android:inputType="numberDecimal"/>
+    
+</RelativeLayout>

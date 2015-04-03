@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    
+    <!-- SHARED -->
+    
+      
+    <string name="app_name">Quencher</string>
+
+   	<!-- save as dialog -->
+   	
+   	<string name="labelName">Name</string>
+   	<string name="labelDesc">Description</string>
+   		
+	<!-- list item actions -->
+	
+   	<string name="itemMoveUp">Move item up the list</string>
+   	<string name="itemMoveDown">Move item down the list</string>
+	<string name="itemDelete">Delete selected item</string>
+	<string name="itemDuplicate">Duplicate selected item</string>
+	
+	<!-- button labels -->
+	
+	<string name="labelYes">Yes</string>
+	<string name="labelNo">No</string>
+   	<string name="labelAccept">Accept</string>
+   	<string name="labelCancel">Cancel</string>
+	<string name="labelClose">Close</string>
+	<string name="labelRetry">Try again</string>
+	<string name="labelAgree">I agree</string>
+   	
+	<!-- general formatting strings -->   	
+   	
+   	<string name="percent">%d %%</string>
+   	<string name="hertz">%d Hz</string>
+   	
+   	<!-- progress messages -->
+   	
+   	<string name="loading">Loading\u2026</string>
+   	<string name="noEntries">No entries found.</string>
+   	
+	<!-- storage alert messages -->
+   	
+   	<string name="storageAutoSaveFailed">Auto-save failed. Recommend you restart Quencher.</string>
+   	<string name="storageDeleteFailed">Delete failed. Recommend you try again or restart Quencher.</string>
+
+	<!-- audio alert messages -->
+   			
+   	<string name="audioInitFailed">Couldn\'t initialize your audio system. Recommend you restart Quencher.</string>
+   	
+   	<!-- mp4 generation alert messages -->		
+   	
+   	<string name="mp4WriteFailed">Couldn\'t create the MP4 file. Recommend you try again or restart Quencher.</string>
+   	
+   	<!-- catastrophic failure message -->
+   	
+   	<string name="snafuDatabase">Database unavilable. Quencher cannot run.</string>
+
+   	<!-- license check messages -->	
+   	
+   	<string name="licenseCheckFailure">Unable to contact license server.</string>
+   	<string name="licenseCheckNone">Application not licensed. Purchase it?</string>
+   	
+   	<string name="licenseKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkRB8Wboq47IwrjZ7hYPkDJdwKnf2vGth43PoUAVcW0i8vyB0JD0gMlnfr+vgunPBLaNzpfOosTU8jVIQQ1f5LEFYWp1oGI0PMIVH04m9DGOj7eCDrEcU5vjzyA98WGa39fUrcGHXbQ9SvckzbBHDTI3Adv4cHus5QmloXak+wONtc5+vUy2LPO/rBX/MbbPqzVqsMEoNYOdujMVxoByfitjHBvd0gJ0VjOp5dYe/aeW09M4pRRdssecPIUx3Rl+8C0q4xRRjbGx2/jSErSNzCI2OdsWrrzHMfi0p1qq0VRMEu40RliS0STXQJUXv6i2m+dXOwOUUgLFN3JzQ6YW5ywIDAQAB</string>
+   	
+	<string name="eulaTitle">End User License Agreement</string>
+   	
+   	<!-- SCORE -->
+   	
+   	
+   	<!-- defaults -->
+   	
+    <string name="untitledScore">Untitled Score</string>
+    
+    <!-- menu -->
+    
+    <string name="scorePlay">Play</string>
+    <string name="scorePlayDetail">Play score</string>
+    <string name="scoreStop">Stop</string>
+    <string name="scoreStopDetail">Stop score playback</string>
+    	
+    <string name="scoreGoto">Go to position</string>
+    <string name="scoreGotoDetail">Go to a position in the score</string>
+	<string name="scoreGotoStart">Go to start</string>
+	<string name="scoreGotoStartDetail">Go to start of score</string>
+	<string name="scoreGotoEnd">Go to end</string>
+	<string name="scoreGotoEndDetail">Go to end of score</string>
+	<string name="scoreGotoCursor">Go to cursor</string>
+	<string name="scoreGotoCursorDetail">Go to note entry cursor</string>
+	<string name="scoreGotoMarker">Go to marker</string>
+	<string name="scoreGotoMarkerDetail">Go to score playback marker</string>
+	<string name="scoreGotoTime">Go to time</string>
+	<string name="scoreGotoTimeDetail">Go to a specific time in the score</string>
+					
+    <string name="scoreEdit">Edit functions</string>
+   	<string name="scoreEditDetail">Score edit functions</string>
+    <string name="scoreAdd">Add track</string>
+    <string name="scoreAddDetail">Add track</string>
+    <string name="scoreSetTempo">Set tempo</string>
+    <string name="scoreSetTempoDetail">Set tempo</string>
+    <string name="scorePaste">Paste</string>
+    <string name="scorePasteDetail">Paste notes</string>
+    
+    <string name="scoreFile">File functions</string>
+    <string name="scoreFileDetail">Score file functions</string>
+    <string name="scoreNew">New</string>
+    <string name="scoreNewDetail">New score</string>
+    <string name="scoreOpen">Open</string>
+    <string name="scoreOpenDetail">Open score</string>
+  	<string name="scoreSaveAs">Save as</string>
+  	<string name="scoreSaveAsDetail">Save score as</string>
+  	<string name="scoreDelete">Delete</string>    
+  	<string name="scoreDeleteDetail">Delete score</string>    
+  	
+   	<string name="instruments">Instrument editor</string>
+   	<string name="instrumentsDetail">Create and edit instrument definitions</string>
+	<string name="scales">Scale editor</string>
+	<string name="scalesDetail">Create and edit scale definitions</string>
+	<string name="settings">Settings</string>
+	<string name="settingsDetail">Set application preferences</string>
+	<string name="exportToMp4">Export to MP4</string>
+	<string name="exportToMp4Detail">Export score to MP4 format file</string>
+	
+   	<string name="stressTest">Stress test</string>
+   	
+	<!-- notes context menu -->
+	
+	<string name="notesCut">Cut</string>
+	<string name="notesCutDetail">Cut selected notes from the track</string>
+	<string name="notesCopy">Copy</string>
+	<string name="notesCopyDetail">Copy selected notes from the track</string>
+	<string name="notesTransposeUp">Transpose up</string>
+	<string name="notesTransposeUpDetail">Move selected notes up the scale</string>
+	<string name="notesTransposeDown">Transpose down</string>
+	<string name="notesTransposeDownDetail">Move selected notes down the scale</string>
+				
+   	<!-- track properties -->
+   	
+	<string name="trackScale">Scale</string>
+	<string name="trackScaleDetail">Scale assigned to track</string>
+	<string name="trackVoice">Instrument</string>
+	<string name="trackVoiceDetail">Instrument assigned to track</string>
+	<string name="trackTiming">Timing</string>
+	<string name="trackBeatsDetail">Track timing properties</string>
+	<string name="trackAudio">Audio</string>
+	<string name="trackAudioDetail">Track audio properties such as volume, pan, and muting</string>
+	
+	<string name="trackToggleLock">(Un)lock track</string>
+	<string name="trackToggleLockDetail">Toggle track editing lock</string>
+	<string name="trackMoveUp">Move up</string>
+	<string name="trackMoveUpDetail">Swap track with the one above it</string>
+	<string name="trackMoveDown">Move down</string>
+	<string name="trackMoveDownDetail">Swap track with the one below it</string>
+	<string name="trackDuplicate">Duplicate</string>
+	<string name="trackDuplicateDetail">Duplicate the track</string>
+	<string name="trackDelete">Delete</string>
+	<string name="trackDeleteDetail">Delete the track from the score</string>
+    
+   	<!--  note chooser -->
+   	
+   	<string name="noteBackspace">Move backwards, deleting any note present</string>
+   	<string name="noteNext">Move forwards</string>
+   	
+   	<!-- activity and popup labels -->
+   	
+   	<string name="scoreTempoLabel">Tempo</string>
+   	<string name="scoreTempoBpm">%d bpm</string>
+   	
+   	<string name="scoreGotoTimeLabel">Go to</string>
+   	
+    <string name="scoreSaveAsDialogTitle">Save score as</string>
+    <string name="scoreSaveAsDialogName">Enter a name for the score</string>
+    <string name="scoreSaveAsDialogDesc">Enter an optional description</string>
+    
+    <string name="scoreSelectionCount">%d selected</string>
+    <string name="scoreSelectionTimes">%s selected</string>
+
+    <string name="trackBeatsPerBar">Beats per bar</string>
+    <string name="trackNotesPerBeat">Notes per beat</string>
+    
+    <string-array name="trackBeatsList">
+        <item>2 beats/bar</item>
+        <item>3 beats/bar</item>
+        <item>4 beats/bar</item>
+        <item>5 beats/bar</item>
+        <item>6 beats/bar</item>
+        <item>7 beats/bar</item>
+        <item>8 beats/bar</item>
+    </string-array>
+    
+    <string-array name="trackNotesList">
+        <item>1 note/beat</item>
+        <item>2 notes/beat</item>
+        <item>3 notes/beat</item>
+        <item>4 notes/beat</item>
+    </string-array>
+    
+   	<string name="trackMute">Mute</string>
+   	<string name="trackMuted">Muted</string>
+   	<string name="trackUnmute">Unmute</string>
+
+   	<string name="trackPanLeft">Left</string>
+   	<string name="trackPanRight">Right</string>
+   	
+   	<string name="scoreOpenTitle">Scores</string>
+   		
+   	<!-- messages -->
+
+    <string name="scoreDeleteConfirm">Permanently delete this score?</string>
+   	<string name="scoreAssignScaleError">That scale won\'t work with the existing notes.</string>
+   	<string name="scorePasteScaleError">Can\'t paste notes from an incompatible scale.</string>
+   	<string name="scorePasteLockError">Can\'t paste notes into a locked track.</string>
+
+   	<string name="trackDeleteConfirm">Delete the highlighted track?</string>
+   	
+   	<string name="scoreCloseConfirm">Save the current score first?</string>
+
+   	
+   	
+   				
+   	<!-- SCALE -->
+   	
+   	
+   	
+    <!-- default strings -->
+    
+    <string name="untitledScale">Untitled Scale</string>
+
+	<!-- menu -->
+	
+    <string name="playScale">Play Scale</string>
+    <string name="addTone">Add Tone</string>
+    
+    <string name="scalePlay">Play</string>
+    <string name="scalePlayDetail">Play scale</string>
+    <string name="scaleStop">Stop</string>
+    <string name="scaleStopDetail">Stop scale playback</string>
+    	
+    <string name="scaleEdit">Edit functions</string>
+   	<string name="scaleEditDetail">scale edit functions</string>
+    <string name="scaleAdd">Add tone</string>
+    <string name="scaleAddDetail">Add tone</string>
+    
+    <string name="scaleFile">File functions</string>
+    <string name="scaleFileDetail">scale file functions</string>
+    <string name="scaleNew">New</string>
+    <string name="scaleNewDetail">New scale</string>
+    <string name="scaleOpen">Open</string>
+    <string name="scaleOpenDetail">Open scale</string>
+  	<string name="scaleSaveAs">Save as</string>
+  	<string name="scaleSaveAsDetail">Save scale as</string>
+  	<string name="scaleDelete">Delete</string>    
+  	<string name="scaleDeleteDetail">Delete scale</string>    
+  			
+	<!-- activity and popup labels -->
+	
+    <string name="toneLabel">Name</string>
+    <string name="toneLabelDetail">Pitch name</string>
+    <string name="toneInterval">Interval</string>
+    <string name="toneIntervalDetail">Interval to next note</string>
+    <string name="toneRatio">Pitch / Sum</string>
+    <string name="toneFrequency">Frequency (Hz)</string>
+    <string name="toneOffset">Octave offset</string>
+    <string name="toneOffsetDetail">Interval from octave start</string>
+    
+    <string name="toneSharp">♯</string>
+    <string name="toneFlat">♭</string>
+    
+    <string name="scaleSaveAsDialogTitle">Save scale as</string>
+    <string name="scaleSaveAsDialogName">Enter a name for the scale</string>
+    <string name="scaleSaveAsDialogDesc">Enter an optional description</string>
+
+   	<string name="scaleOpenTitle">Scales</string>
+    
+    <!-- messages -->
+
+    <string name="toneDeleteConfirm">Delete the highlighted tone?</string>
+    
+    <string name="scaleDeleteConfirm">Permanently delete this scale?</string>
+    
+    <string name="scaleInUse">You\'re using %s in a score. Changes won\'t be saved.</string>
+    <string name="scaleIsDefault">%s is the default scale. Changes won\'t be saved.</string>
+    
+   	<string name="scaleCloseConfirm">Save the current scale first?</string>
+   			
+    	
+
+    
+    <!-- VOICE -->
+    
+    
+    
+    <string name="untitledVoice">Untitled Instrument</string>
+    
+    <!-- menu -->
+    
+    <string name="addStage">Add stage</string>
+    
+    <string name="setTremolo">Tremolo</string>
+    <string name="setVibrato">Vibrato</string>
+    
+    <string name="voicePlay">Play</string>
+    <string name="voicePlayDetail">Play voice</string>
+    <string name="voiceStop">Stop</string>
+    <string name="voiceStopDetail">Stop voice playback</string>
+    	
+    <string name="voiceEdit">Edit functions</string>
+   	<string name="voiceEditDetail">voice edit functions</string>
+    <string name="voiceAdd">Add stage</string>
+    <string name="voiceAddDetail">Add stage</string>
+    <string name="voiceTremolo">Tremolo</string>
+    <string name="voiceTremoloDetail">Set tremolo frequency</string>
+    <string name="voiceVibrato">Vibrato</string>
+    <string name="voiceVibratoDetail">Set vibrato frequency</string>
+    
+    <string name="voiceFile">File functions</string>
+    <string name="voiceFileDetail">voice file functions</string>
+    <string name="voiceNew">New</string>
+    <string name="voiceNewDetail">New voice</string>
+    <string name="voiceOpen">Open</string>
+    <string name="voiceOpenDetail">Open voice</string>
+  	<string name="voiceSaveAs">Save as</string>
+  	<string name="voiceSaveAsDetail">Save voice as</string>
+  	<string name="voiceDelete">Delete</string>    
+  	<string name="voiceDeleteDetail">Delete voice</string>    
+  	
+  	<string name="voiceTestFrequency">Change test frequency</string>
+  	<string name="voiceTestFrequencyDetail">Change frequency of test note used in voice playback</string>
+  	
+    <!-- activity and popup labels -->
+    
+    <string name="stageHeaderType">Type</string>
+    <string name="stageHeaderDuration">Time</string>
+    <string name="stageHeaderLevel">Level</string>
+    
+    <string name="stageType">Wave type</string>
+    <string name="stageDuration">Fade time</string>
+    <string name="stageLevel">Peak level</string>
+    <string name="stageNoise">Base pitch</string>
+    
+    <string name="voiceTestFrequencyLabel">Test at</string>
+
+    <string name="voiceSaveAsDialogTitle">Save instrument as</string>
+    <string name="voiceSaveAsDialogName">Enter a name for the instrument</string>
+    <string name="voiceSaveAsDialogDesc">Enter an optional description</string>
+    
+    <string name="stageHarmonics">Harmonics</string>
+    
+   	<string name="voiceOpenTitle">Instruments</string>
+    
+    <!-- messages -->
+    
+   	<string name="stageDeleteConfirm">Delete the highlighted stage?</string>
+   			
+    <string name="voiceDeleteConfirm">Permanently delete this voice?</string>
+    
+    <string name="voiceInUse">You\'re using %s in a score. Changes won\'t be saved.</string>
+    <string name="voiceIsDefault">%s is the default voice. Changes won\'t be saved.</string>
+    
+   	<string name="voiceCloseConfirm">Save the current instrument first?</string>
+   			
+    
+   	
+    <!-- AUDIO ENGINE / MP4 GENERATION -->
+    
+    
+	<string name="mp4Encoding">Encoding %s</string>    
+	<string name="mp4Writing">Writing %s</string>    
+	<string name="mp4Complete">%s created.</string>
+	
+	
+	
+	<!-- SETTINGS/PREFERENCES ACTIVITY -->
+	
+
+
+	<string name="prefsTitle">Settings</string>
+
+	<string name="prefsTuningTitle">Tuning</string>
+	
+	<string name="prefsTuningReference">Reference Frequency (Hz)</string>
+	<string name="prefsTuningReferenceDefault">440</string>
+	<string name="prefsTuningReferenceRange">Reference frequency must lie within the middle octave (261.63Hz - 523.25Hz)</string>
+	
+	<string name="prefsTuningFrequency">Tune to (Hz)</string>
+	<string name="prefsTuningFrequencyDefault">440</string>
+	<string name="prefsTuningFrequencyRange">Tuning frequency must lie between 220 and 880 Hz.</string>
+
+	<string name="prefsAudioTitle">Audio</string>
+	
+	<string name="prefsAudioLatency">Audio Latency (ms)</string>
+	<string name="prefsAudioLatencyDefault">10</string>
+	<string name="prefsAudioLatencyRange">Audio latency must be between 1 and 1000 milliseconds.</string>
+	
+		
+</resources>

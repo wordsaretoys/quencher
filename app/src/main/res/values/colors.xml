@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#ffffffff</color>
+    <color name="clouds">#ffecf0f1</color>
+    <color name="black">#ff000000</color>
+    <color name="asphalt">#ff34495e</color>
+    <color name="emerald">#ff2ecc71</color>
+    <color name="carrot">#ffe67e22</color>
+    <color name="sunflower">#fff1c40f</color>
+    
+    <color name="ltgray0">#ffe0e0e0</color>
+    <color name="ltgray1">#ffd0d0d0</color>
+    <color name="ltgray2">#ffc0c0c0</color>
+    <color name="ltgray3">#ffa0a0a0</color>
+    <color name="mdgray1">#ff707070</color>
+    <color name="dkgray">#ff222222</color>
+
+    <color name="moreblu">#ffc0c0f0</color>
+    
+    <color name="faintblu">#ffe0e0f0</color>
+    <color name="faintyello">#fff1e30f</color>
+    
+    <color name="ltblue1">#ff84d2ef</color>
+    
+</resources>

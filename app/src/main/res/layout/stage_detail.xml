@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+   
+	<include layout="@layout/listitem_button_bar"/>
+    
+	<TextView 
+	    android:id="@+id/lbl0"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/buttonBar"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+	    android:text="@string/stageType"/>
+
+	<Spinner
+		android:id="@+id/stageType"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl0"
+        android:layout_alignBaseline="@id/lbl0"
+        android:layout_alignLeft="@+id/stageDuration"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"/>
+
+    <TextView 
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl0"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:text="@string/stageDuration"/>
+	
+	<SeekBar
+	    android:id="@+id/stageDuration"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl1"
+        android:layout_alignTop="@id/lbl1"
+        android:layout_alignLeft="@+id/stageLevel"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+		
+    <TextView 
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl1"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:text="@string/stageLevel"/>
+	
+	<SeekBar
+	    android:id="@+id/stageLevel"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl2"
+        android:layout_alignTop="@id/lbl2"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+
+    <com.wordsaretoys.quencher.voices.HarmonicView
+        android:id="@+id/harmonicView" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lbl2"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView 
+        android:id="@+id/lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/harmonicView"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:text="@string/stageNoise"/>
+	
+	<SeekBar
+	    android:id="@+id/stageNoise"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl3"
+        android:layout_alignTop="@id/lbl3"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+    	
+</RelativeLayout>

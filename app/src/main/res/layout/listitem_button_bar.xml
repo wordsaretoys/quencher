@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/buttonBar"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="8dp"
+	android:orientation="horizontal"
+	style="?android:attr/buttonBarStyle">
+
+	<ImageButton
+		android:id="@+id/moveUp"
+		android:src="@drawable/ic_button_up"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/itemMoveUp"
+		style="?android:attr/borderlessButtonStyle"/>
+	
+	<ImageButton
+		android:id="@+id/moveDown"
+		android:src="@drawable/ic_button_down"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/itemMoveDown"
+		style="?android:attr/borderlessButtonStyle"/>
+    
+	<ImageButton
+		android:id="@+id/duplicate"
+		android:src="@drawable/ic_button_duplicate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/itemDuplicate"
+		style="?android:attr/borderlessButtonStyle"/>
+
+	<ImageButton
+		android:id="@+id/delete"
+		android:src="@drawable/ic_button_remove"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/itemDelete"
+		style="?android:attr/borderlessButtonStyle"/>
+			
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- should always see these -->
+    
+    <item 
+        android:id="@+id/play"
+        android:icon="@drawable/ic_menu_play"
+        android:title="@string/scorePlay" 
+        android:contentDescription="@string/scorePlayDetail"
+        android:showAsAction="always"/>
+
+    <item 
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_menu_stop"
+        android:title="@string/scoreStop" 
+        android:contentDescription="@string/scoreStopDetail"
+        android:visible="false"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/gotoPosition"
+        android:icon="@drawable/ic_menu_goto"
+        android:title="@string/scoreGoto" 
+        android:contentDescription="@string/scoreGotoDetail"
+        android:showAsAction="always">
+        
+		<!-- goto submenu -->        
+        
+        <menu>
+		    <item 
+		        android:id="@+id/gotoStart"
+		        android:icon="@drawable/ic_menu_goto_start"
+		        android:title="@string/scoreGotoStart" 
+		        android:contentDescription="@string/scoreGotoStartDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/gotoEnd"
+		        android:icon="@drawable/ic_menu_goto_end"
+		        android:title="@string/scoreGotoEnd" 
+		        android:contentDescription="@string/scoreGotoEndDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/gotoCursor"
+		        android:icon="@drawable/ic_menu_goto_cursor"
+		        android:title="@string/scoreGotoCursor" 
+		        android:contentDescription="@string/scoreGotoCursorDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/gotoMarker"
+		        android:icon="@drawable/ic_menu_goto_marker"
+		        android:title="@string/scoreGotoMarker" 
+		        android:contentDescription="@string/scoreGotoMarkerDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/gotoTime"
+		        android:icon="@drawable/ic_menu_goto_time"
+		        android:title="@string/scoreGotoTime" 
+		        android:contentDescription="@string/scoreGotoTimeDetail"
+		        android:showAsAction="never"/>
+	    </menu>
+        
+    </item>
+    
+    <item 
+        android:id="@+id/edit"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/scoreEdit" 
+        android:contentDescription="@string/scoreEditDetail"
+        android:showAsAction="always">
+        
+		<!-- edit functions submenu -->        
+        
+        <menu>
+		    <item 
+		        android:id="@+id/addTrack"
+		        android:icon="@drawable/ic_menu_add"
+		        android:title="@string/scoreAdd" 
+		        android:contentDescription="@string/scoreAddDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/setTempo"
+		        android:icon="@drawable/ic_menu_tempo"
+		        android:title="@string/scoreSetTempo" 
+		        android:contentDescription="@string/scoreSetTempoDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/paste"
+		        android:icon="@drawable/ic_menu_paste"
+		        android:title="@string/scorePaste" 
+		        android:contentDescription="@string/scorePasteDetail"
+		        android:showAsAction="never"/>
+       </menu>
+        
+    </item>
+    
+    <item 
+        android:id="@+id/file"
+        android:icon="@drawable/ic_menu_open"
+        android:title="@string/scoreFile" 
+        android:contentDescription="@string/scoreFileDetail"
+        android:showAsAction="always">
+        
+		<!-- file functions submenu -->        
+        
+        <menu>
+		    <item 
+		        android:id="@+id/create"
+		        android:icon="@drawable/ic_menu_new"
+		        android:title="@string/scoreNew" 
+		        android:contentDescription="@string/scoreNewDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/open"
+		        android:icon="@drawable/ic_menu_open"
+		        android:title="@string/scoreOpen" 
+		        android:contentDescription="@string/scoreOpenDetail"
+		        android:showAsAction="never"/>
+		    <item
+		        android:id="@+id/saveAs"
+		        android:icon="@drawable/ic_menu_save_as"
+		        android:title="@string/scoreSaveAs"
+		        android:contentDescription="@string/scoreSaveAsDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/delete"
+		        android:icon="@drawable/ic_menu_delete"
+		        android:title="@string/scoreDelete" 
+		        android:contentDescription="@string/scoreDeleteDetail"
+		        android:showAsAction="never"/>
+		    <item 
+		        android:id="@+id/makeMP4"
+		        android:icon="@drawable/ic_menu_export"
+		        android:title="@string/exportToMp4" 
+		        android:contentDescription="@string/exportToMp4Detail"
+		        android:showAsAction="never"/>
+        </menu>
+        
+    </item>
+    
+    <!--  overflow menu -->
+    
+    <item 
+        android:id="@+id/instruments"
+        android:title="@string/instruments" 
+        android:contentDescription="@string/instrumentsDetail"
+        android:showAsAction="never"/>
+    <item 
+        android:id="@+id/scales"
+        android:title="@string/scales" 
+        android:contentDescription="@string/scalesDetail"
+        android:showAsAction="never"/>
+    <item 
+        android:id="@+id/settings"
+        android:title="@string/settings" 
+        android:contentDescription="@string/settingsDetail"
+        android:showAsAction="never"/>
+    <item 
+        android:id="@+id/stressTest"
+        android:title="@string/stressTest"
+        android:visible="false"
+        android:showAsAction="never"/>
+</menu>

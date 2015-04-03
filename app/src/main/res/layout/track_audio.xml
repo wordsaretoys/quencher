@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/dkgray"
+    android:baselineAligned="true" >
+    
+	<Button 
+	    android:id="@+id/muteButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/volumePercent"
+	    android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+	    android:textSize="24sp"
+	    android:textColor="@color/white"
+	    android:text="@string/trackUnmute"/>
+
+    <SeekBar 
+        android:id="@+id/volumeSlider"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/muteButton"
+	    android:layout_toLeftOf="@+id/volumePercent"
+        android:layout_marginBottom="8dp"/>
+    
+	<TextView
+	    android:id="@+id/volumePercent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="8dp"
+	    android:textColor="@color/white"
+	    android:textSize="24sp" />
+
+	<TextView 
+	    android:id="@+id/lblLeft"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/volumeSlider"
+	    android:layout_alignParentLeft="true"
+	    android:textSize="24sp"
+	    android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+	    android:text="@string/trackPanLeft"/>
+		
+    <SeekBar 
+        android:id="@+id/panSlider"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/volumeSlider"
+        android:layout_toRightOf="@id/lblLeft"
+        android:layout_toLeftOf="@+id/lblRight"
+        android:layout_alignLeft="@+id/volumeSlider"
+        android:layout_marginTop="8dp"/>
+    
+	<TextView 
+	    android:id="@+id/lblRight"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/volumeSlider"
+	    android:layout_alignParentRight="true"
+	    android:textSize="24sp"
+	    android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+	    android:text="@string/trackPanRight"/>
+		
+</RelativeLayout>
