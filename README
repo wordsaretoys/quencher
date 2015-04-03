@@ -1,0 +1,9 @@
+Quencher is a music-making app that allows easy editing of tracks and notes, plus the ability to customize scales and instruments. The main composer view supports any number of tracks, each of which may be of any length. Each track is assigned its own scale, instrument, time signature, volume, and balance. The user enters and deletes notes using a built-in scale pad, and may cut, copy, paste, and transpose selected notes. Real-time playback is supported from any point in the score.
+
+All major, minor, and pentatonic scales are provided, and advanced users may create their own equal-temperament scales from interval formulas. Blues, microtonal, and non-Western scales are among the possibilities.
+
+Thirty pre-defined instruments are available. Users may also create their own instrument sounds by blending custom harmonic waveforms with sawtooth and square waves. Tunable noise is also available to create percussion sounds. The user may apply tremolo and vibrato to the end product.
+
+The built-in synthesizer comes tuned to concert pitch (A = 440Hz) and can be adjusted in the settings to support other tunings. 
+
+Users running Jelly Bean 4.3 and above may export their scores to MP4 format.
